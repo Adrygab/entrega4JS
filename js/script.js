@@ -82,13 +82,10 @@ function imprimirDatos() {
 }
 
 borrarDatosButton.addEventListener('click', function () {
-    // Borrar datos del localStorage
-   // localStorage.removeItem('usuarios');
 
 //botón para borra datos
 Swal.fire({
   title: '¿Deseas eliminar el estado de tu ahorro?',
-  //text: "You won't be able to revert this!",
   icon: 'warning',
   showCancelButton: true,
   confirmButtonColor: '#3085d6',
@@ -137,7 +134,7 @@ function plazos(ahorroTiempo) {
 }
 
 
-
+// Json
 const lista = document.querySelector("#formasAhorro");
 const btn = document.getElementById("btn");
 
