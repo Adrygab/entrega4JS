@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css"/>
+    <!--Tostyfy-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    
+    <!--Sweet Alert-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!--fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+
+    <title>Document</title>
+</head>
+<body class="fondo">
+
+    <main class="cont_principal">
+        <h1>Bienvenido al simulador de ahorro</h1>
+
+        <article class="infAhorro">
+          <section class="info">
+            <h2>¿Sábes como ahorrar<br> de acuer a tus planes?</h2>
+            <h3>¡Descúblero aquí!</h3>
+          
+    
+            <form id="calcular" class="formulario">
+                <div class="datos">
+                    
+                    <input type="text" name="nombre" id="nombre" placeholder="*Tu nombre" required="required" />
+                </div>
+    
+                <div class="datos">
+                    <input type="number" name="edad" id="edad" placeholder="*Edad" required="required" />
+                </div>
+    
+                <div class="datos">
+                    <input type="text" name="objetivo" id="objetivo" placeholder="*Tu objetivo" required="required" />
+                </div>
+    
+                <div class="datos">
+                    <input type="number" name="porcentajeMensual" placeholder="Ingreso Mensual (sin comas)" id="ingresoMensual" required="required" />
+                </div>
+    
+    
+                <div class="datos">
+                    <label>Porcentaje de ahorro:<br>Te recomendamos:</label><br>
+                    <select name="porcentajeMensual" id="porcentajeMensual"><br>
+                        <option value="opcion">Elige una opción</option>
+                        <option value="10">10%</option>
+                        <option value="20">20%</option>
+                        <option value="30">30%</option>
+                        <option value="40">40%</option>
+                        <option value="50">50%</option>
+                      </select>
+                </div>
+    
+                <div class="datos">
+                    <label>Establece un tiempo meta, te recomendamos:<br>
+                         12 meses, 36 meses, 60 meses</label><br>
+                    <select name="lenguajes" id="ahorroTiempo">
+                        <option value="opción">Elige una opción</option>
+                        <option value="12">12 meses</option>
+                        <option value="36">36 meses</option>
+                        <option value="60">60 meses</option>
+                      </select>
+                  
+          
+                    
+                </div>
+    
+                <div class="datos">
+                    <input type="submit" id="enviar" name="enviar" value ="enviar" class="button"/>
+                   
+                </div>
+            </form>
+          </section>
+
+          
+          <section>
+            <div id="resultado" class="resultado">
+                <h2>Este es el resumen de tus datos:</h2> 
+
+               
+             
+                <div id="datosUsuario">
+
+                   
+             
+                </div>
+
+                <button id="limpiarDatos" class="button">Consultar otro ahorro</button>
+             
+                
+             
+             </div>
+
+          </section>
+
+        </article>
+        <section class="formas">
+        <h2>Formas de ahorro</h2>
+      <button id="btn" class="button">Ver otras formas de ahorro</button>
+        <hr>
+        <ul id="formasAhorro">
+
+            
+        </ul>
+    </section>
+    </main><!--cont_principal-->
+
+    <script src="js/script.js"></script>
+
+
+
+</body>
+</html>

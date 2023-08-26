@@ -1,0 +1,150 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+.cont_principal{
+    margin: auto;
+    max-width: 900px;
+    background-color: rgb(0,0,0,0.8);
+    color: #ffffff;
+    padding: 30px;
+
+}
+
+.datos{
+    margin:10px 0px;
+}
+
+.fondo{
+    background-image: url(../img/slidwer1.jpg);
+    background-size: cover;
+    background-position: fixed;
+}
+
+h1{
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+
+}
+
+h2{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 25px;
+    color: #6a7ad3;
+    text-align: center;
+
+}
+
+
+h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.formulario{
+    margin: auto;
+    text-align: center;
+}
+
+
+.infAhorro{
+    display: flex;
+}
+
+.info{
+   width:500px;
+    text-align: center;
+}
+
+.resultado{
+    margin: auto;
+    text-align: center;
+    width: 500px;
+
+}
+
+form input{
+    background-color: transparent;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #6a7ad3;
+    color: #ffffff;
+}
+
+select{
+    background-color: transparent;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #6a7ad3;
+    color: #6a7ad3;
+    margin: 20px 0;
+
+}
+
+
+
+.resultado h2{
+    text-align: center;
+}
+
+.button{
+    background-color: #001581; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    
+}
+
+.parrafo{
+    text-align: center;
+}
+
+#datosUsuario{
+    text-align: left;
+    padding: 10px 0px;
+    margin: 10px auto;
+    width: 300px;
+}
+
+#datosUsuario li{
+    list-style-type: none;
+}
+
+
+
+#formasAhorro {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    
+}
+
+#formasAhorro img{
+    width: 100%;
+}
+
+#formasAhorro li{
+    list-style: none;
+   max-width: 400px;
+    margin: 10px;
+
+}
+
+.formas{
+    text-align: center;
+}
+
+
+
+
+
+

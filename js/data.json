@@ -1,0 +1,35 @@
+
+
+[
+
+    {
+    "id": 1,
+    "nombre": "meta",
+    "img": "../img/ahorro-meta.jpg",
+    "titulo": "Ahorro meta:",
+    "descripcion": "Lo primero que debes hacer es planificar, por ejemplo, cuánto cuesta lo que quieres comprar y de acuerdo a ese monto total, establecer una cantidad  mensual para cumplir con el objetivo." 
+},
+{
+"id": 2,
+"nombre": "familiar",
+"img": "../img/ahorro-familiar.jpg",
+"titulo": "Ahorro familiar:",
+"descripcion": "Este tipo de ahorro puedes iniciarlo desde que empieces una vida de unión con tu pareja, pueden abrir una cuenta mancomunada para lograr sus metas"
+},
+{
+    "id": "3",
+    "nombre": "emergencia",
+    "img": "../img/ahorro-emergencia.jpg",
+    "titulo": "Ahorro de Emergencia:",
+    "descripcion": "Ayuda a resolver gastos que se presenten de emergencia. Lo recomendable es que puedas cubrir gastos y obligaciones durante 12 meses."
+    },
+    {
+        "id": 4,
+        "nombre": "hipotecario",
+        "img": "../img/ahorro-hipotecario.jpg",
+        "titulo": "Ahorro hipotecario:",
+        "descripcion": "Si quieres comprar una casa y no tienes el dinero para cubrir el monto total, cualquier institución bancaria puede prestarte un porcentaje de su costo mediante un crédito hipotecario"
+      }
+
+]
+
